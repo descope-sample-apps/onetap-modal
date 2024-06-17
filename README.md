@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, add your Descope project ID to the `.env.local`. You will also need to configure a Custom Social Provider with Google named "google-implicit".
+First, add your Descope project ID (NEXT_PUBLIC_DESCOPE_PROJECT_ID) to the `.env.local`. You will also need to configure a Custom Social Provider with Google named "google-implicit".
 
 Then, install dependencies and run the development server:
 
