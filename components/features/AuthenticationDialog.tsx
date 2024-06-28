@@ -20,6 +20,7 @@ export default function AuthenticationDialog() {
     const getRedirectUrl = () => {
         return `${window.location.origin}/login?${chatMode ? `chatMode=${chatMode}` : ''}`;
     }
+    <Descope flowId={flowId} redirectUrl={getRedirectUrl()} />
 
     return (
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
