@@ -21,9 +21,9 @@ function UserButton({ session }: { session: any }) {
         <div className="flex space-x-2 w-full justify-center items-center hover:bg-slate-100 transition p-2">
             <Avatar>
                 {/* <AvatarImage src="https://i.pravatar.cc/300" alt="avatar" /> */}
-                <AvatarFallback className="p-2">{getInitials(name)}</AvatarFallback>
+                <AvatarFallback className="font-serif text-sm text-gray-200 bg-slate-800">{getInitials(name)}</AvatarFallback>
             </Avatar>
-            <p>{name}</p>
+            <p className="font-serif text-sm">{name}</p>
         </div>
     </UserDropdown>
 }
